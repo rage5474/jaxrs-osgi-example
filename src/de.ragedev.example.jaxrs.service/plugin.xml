@@ -11,9 +11,6 @@
          <run
                class="de.ragedev.example.jaxrs.service.Application">
          </run>
-         <run
-               class="de.ragedev.example.jaxrs.service.Application1">
-         </run>
       </application>
    </extension>
    <extension
