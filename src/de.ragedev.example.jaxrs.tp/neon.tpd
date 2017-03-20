@@ -1,0 +1,10 @@
+target "Neon"
+
+location "http://download.eclipse.org/releases/neon" {
+	org.eclipse.equinox.sdk.feature.group
+	org.apache.log4j
+}
+
+location "http://hstaudacher.github.io/osgi-jax-rs-connector" {
+	com.eclipsesource.jaxrs.connector.feature.feature.group
+}

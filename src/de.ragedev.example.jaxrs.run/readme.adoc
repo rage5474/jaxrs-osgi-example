@@ -1,0 +1,16 @@
+= How create a launch configuration for the service
+
+* Open Run Configurations...
+* Create new OSGI Framework configuration
+* Uncheck all bundles 
+* Select following bundles 
+** de.ragedev.example.jaxrs.service
+** de.ragedev.example.jaxrs.log4j
+** com.eclipsesource.jaxrs.publisher
+** org.eclipse.equinox.console
+** org.eclipse.equinox.ds
+** org.eclipse.equinox.http.jetty
+* Click Add required
+* [Optional:] Deselect org.slf4j.api to see output in console
+* [Optional:] Change to port with following JVM parameter -Dorg.osgi.service.http.port=YOUR_PORT
+ 
