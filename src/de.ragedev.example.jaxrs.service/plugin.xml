@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         id="application"
+         point="org.eclipse.core.runtime.applications">
+      <application
+            cardinality="singleton-global"
+            thread="main"
+            visible="true">
+         <run
+               class="de.ragedev.example.jaxrs.service.Application">
+         </run>
+         <run
+               class="de.ragedev.example.jaxrs.service.Application1">
+         </run>
+      </application>
+   </extension>
+   <extension
+         id="service"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="de.ragedev.example.jaxrs.service.application"
+            name="Service Product">
+         <property
+               name="appName"
+               value="Service Product">
+         </property>
+      </product>
+   </extension>
+
+</plugin>

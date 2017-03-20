@@ -2,6 +2,7 @@ target "Neon"
 
 location "http://download.eclipse.org/releases/neon" {
 	org.eclipse.equinox.sdk.feature.group
+	org.eclipse.rcp.feature.group
 	org.apache.log4j
 	org.apache.httpcomponents.httpclient
 	org.apache.httpcomponents.httpcore
