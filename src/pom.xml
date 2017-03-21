@@ -15,8 +15,8 @@
 	</properties>
 
 	<modules>
-		<module>de.ragedev.example.jaxrs.log4j</module>
 		<module>de.ragedev.example.jaxrs.service</module>
+		<module>de.ragedev.example.jaxrs.service.log4j</module>
 		<module>de.ragedev.example.jaxrs.service.feature</module>
 		<module>de.ragedev.example.jaxrs.service.platform.feature</module>
 		<module>de.ragedev.example.jaxrs.service.product</module>
