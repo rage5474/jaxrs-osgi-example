@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product name="Service Product" id="de.ragedev.example.jaxrs.service.service" application="de.ragedev.example.jaxrs.service.application" useFeatures="true" includeLaunchers="true">
+<product name="Service Product" uid="de.ragedev.example.jaxrs.service.product" id="de.ragedev.example.jaxrs.service.service" application="de.ragedev.example.jaxrs.service.application" version="1.0.0" useFeatures="true" includeLaunchers="true">
 
    <configIni use="default">
    </configIni>
