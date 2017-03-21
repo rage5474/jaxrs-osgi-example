@@ -1,5 +1,7 @@
 language: java
 sudo: false
+jdk:
+  - oraclejdk8
 script: 
   - cd src
   - mvn -N io.takari:maven:wrapper -Dmaven=3.3.3 clean verify
