@@ -20,7 +20,7 @@
 		<module>de.ragedev.example.jaxrs.service.feature</module>
 		<module>de.ragedev.example.jaxrs.service.platform.feature</module>
 		<module>de.ragedev.example.jaxrs.service.product</module>
-		<module>de.ragedev.example.jaxrs.tp</module>
+		<module>de.ragedev.example.jaxrs.service.tp</module>
 	</modules>
 
 	<build>
@@ -33,7 +33,7 @@
 					<target>
 						<artifact>
 							<groupId>de.ragedev</groupId>
-							<artifactId>de.ragedev.example.jaxrs.tp</artifactId>
+							<artifactId>de.ragedev.example.jaxrs.service.tp</artifactId>
 							<version>1.0.0-SNAPSHOT</version>
 						</artifact>
 					</target>
