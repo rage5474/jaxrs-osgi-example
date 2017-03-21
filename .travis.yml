@@ -5,3 +5,4 @@ jdk:
 script: 
   - cd src
   - mvn -N io.takari:maven:wrapper -Dmaven=3.3.3 clean verify
+  - ./mvnw clean verify
