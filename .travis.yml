@@ -2,4 +2,4 @@ language: java
 sudo: false
 script: 
   - cd src
-  - mvn clean verify
+  - mvn -N io.takari:maven:wrapper -Dmaven=3.3.3 clean verify
