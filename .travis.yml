@@ -4,8 +4,11 @@ jdk:
 - oraclejdk8
 script:
 - cd src
+# Travis-ci does not support mvn 3.3 - using mvn wrapper
 - mvn -N io.takari:maven:wrapper -Dmaven=3.3.3 clean verify
+# Build example with mvn wrapper
 - "./mvnw clean verify"
+# Deploy releases back to github
 deploy:
   provider: releases
   api_key:
@@ -16,4 +19,5 @@ deploy:
     - de.ragedev.example.jaxrs.service.product/target/products/de.ragedev.example.jaxrs.service.product-win32.win32.x86_64.zip
   skip_cleanup: true
   on:
+    tags: true
     repo: rage5474/jaxrs-osgi-example
